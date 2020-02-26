@@ -1,0 +1,31 @@
+.product-container{
+    margin: auto 5rem;
+}
+.product-same .product-chil{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    grid-gap: 10px;
+}
+.product-same .product-chil h3{
+    color: black;
+}
+
+.product-same .product-chil h4{
+    color: red;
+}
+
+.product-same .product-chil h5{
+    text-align: left;
+    margin: auto 0.5rem;
+}
+
+.product-same .product-chil h6{
+    text-align: left;
+}
+.product-tit{
+    text-align: center;
+    padding: 1rem;
+    color: #333;
+}

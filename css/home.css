@@ -1,3 +1,4 @@
+@media screen and (min-width: 1024px){
 .container{
     background-color: #2a5268;
     color: #999;
@@ -260,8 +261,32 @@
     padding: 1rem;
     border-bottom: 1px solid rgba(0,0,0,0.3);
 }
-@media screen and (max-width: 1024px){
-  
+/* cheap-product */
+.cheap-product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 1rem 5rem;
+    align-items: center;
+    text-align: center;
+    grid-gap: 10px;
+}
+.acces-chil {
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+.acces-chil img {
+    margin-bottom: 1rem;
+}
+.acces-chil button {
+    background-color: #fff;
+    border: 1px solid red;
+    color: red;
+    border-radius: 10px;
+}
+.acces-chil .icon img{
+    margin: auto 5px;
+}
 }
 @media screen and (max-width: 768px){
     
